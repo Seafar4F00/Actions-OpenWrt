@@ -18,3 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main' >>feeds.conf.default
 echo 'src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;main' >>feeds.conf.default
+git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone --depth 1 https://github.com/dwfreed/openwrt-vlmcsd.git package/openwrt-vlmcsd
+git clone --depth 1 https://github.com/cokebar/luci-app-vlmcsd.git package/luci-app-vlmcsd
